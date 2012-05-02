@@ -1,0 +1,14 @@
+# My muscle-memory ls aliases
+alias ls='ls --color=always'
+alias la='ls -Fa --color=always'
+alias ll='ls -Fal --color=always'
+
+# Default to human readable figures
+alias df='df -h'
+alias du='du -h'
+
+# grep is better in color
+alias grep='grep --color'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
